@@ -20,7 +20,33 @@
 }(jQuery));
 var $mcj = jQuery.noConflict((true));
 /* end of mailchimp function*/
+e
+//business logic
+//$("form").submit(() => {
+    //if($('mce-FNAME').val() === "" || $('mce-MERGE6'.val()===''){
+        //$(".popp".show();
+        //$("pop").text("Dont leave empty fields")
+        //$(".popp").css({
+            //"background-color" : "blue",
+            //"font-size": "1em"
+        //});//
+       
 
-
-
-
+        
+  //user logic
+  $(document).ready(() => {
+    let divs = ['1', '2', '3'];
+    divs.forEach((div) => {
+        if($('.text' + click0).is(":visible")){
+            $(".text"+ click1).hide();
+        }
+        $(".div" + div).click(() =>{
+            if($(".image" + click1).is(":visible")){
+                $(".image" + click0).hide();
+                $(".text" + click2).show();
+            } else if($(".text" + click2).is(":visible")){
+                $(".text" + click1).hide();
+                $(".image" + click0).show();
+            }
+        });
+    });
