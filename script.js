@@ -19,3 +19,8 @@
     ftypes[7] = 'text';
 }(jQuery));
 var $mcj = jQuery.noConflict((true));
+/* end of mailchimp function*/
+
+
+
+
