@@ -22,3 +22,23 @@
     padding-top: 8%;
     
 }
+#contact{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    opacity: 0.60;
+    justify-content: center;
+
+}
+.textarea{
+    width: 90%;
+}
+#click{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+    animation: bounce 5s infinite; 
+}
