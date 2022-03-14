@@ -42,3 +42,6 @@ form{
     padding-bottom: 30px;
     animation: bounce 5s infinite; 
 }
+h3{
+    text-align: center;
+}
