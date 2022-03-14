@@ -20,61 +20,36 @@
 }(jQuery));
 //var $mcj = jQuery.noConflict((true));
 /* end of mailchimp function*/
-e
-//business logic
-$("form").submit(() => {
-    //if($('mce-FNAME').val() === "" || $('mce-MERGE6'.val()===''){
-        //$(".popp".show();
-        //$("pop").text("Dont leave empty fields")
-        //$(".popp").css({
-            //"background-color" : "blue",
-            //"font-size": "1em"
-        });//
+
+//user/UI logic$("#design, #design2").click(()=>
+$(document).ready(()=>{
+
+    // What we do section
+
+    $("#design, #designs").click(()=>
+    {
+        $('.par1').slideToggle();
+        //$('#design').slideToggle();
+
+    });
+
+    
+
+    $("#develop").click(()=>
+    {
+        $('.par2').slideToggle();
+        //$('#development').slideToggle();
+
+    });
+
+    $("#product").click(()=>
+    {
+        $('.par3').slideToggle();
+        //$('#products').slideToggle();
+
+    });
+
        
 
-        
-  //user logic
-  //$(document).ready(() => {
-    //let divs = ['1', '2', '3'];
-    //divs.forEach((div) => {
-        //if($('.text' + click0).is(":visible")){
-            //$(".text"+ click1).hide();
-        //}
-        //$(".div" + div).click(() =>{
-            //if($(".image" + click1).is(":visible")){
-                ///$(".image" + click0).hide();
-                //$(".text" + click2).show();
-            //} else if($(".text" + click2).is(":visible")){
-                //$(".text" + click1).hide();
-                //$(".image" + click0).show();//
-            //}
-        //});
-    //});//
-
-    //$("button").click(function(party) {
-        //var client = document.getElementById('nameDetail').value;
-        //alert(`Thank You , Message has been recieved Successfully!`);
-        //party.preventDefault();//
-    //});//
-
-    $(document).ready(function() {
-        $(".col-sm-4").hide();
-        $(".croseover").hover(function() {
-            $(this).find(".col-sm-4").toggle(600);
-        });
-    
-    });
-    $(".click0").click(function() {
-        $(".hide0").slideToggle(1000);
-        $(".show0").slideToggle(1200);
-    });
-    
-    $(".click1").click(function() {
-        $(".hide1").slideToggle(1000);
-        $(".show1").slideToggle(1200);
-    });
-    
-    $(".click2").click(function() {
-        $(".hide2").slideToggle(1000);
-        $(".show2").slideToggle(1200);
-    });
+  
+})
