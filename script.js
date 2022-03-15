@@ -24,7 +24,7 @@
 //user/UI logic$
   
 $(".images").hover(function () {
-    $(this).children(".img").fadeToggle(1000, "linear");
+    $(this).children(".img").fadeToggle(1200, "linear");
 
 });
 
@@ -59,14 +59,17 @@ $("form").submit(() => {
         });
 
     } else {
-        $(".form-pop").show();
-        $(".popping").text(`Thank you ${$("#mce-FNAME").val()} for contacting us. We Received your message`)
+        $(".form2").show();
+        $(".popping").text(`Thank you ${$("#mce-FNAME").val()} for contacting us. We  have received your message and will get back to you SOON!`)
         $(".form2").css({
             "background-color" : "blue",
-            "font-size" : "1em"
+            "font-size" : "30px"
         });
     }
 });
+
+
+
 
 
 
