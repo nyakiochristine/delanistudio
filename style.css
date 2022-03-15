@@ -51,3 +51,27 @@ h3{
 h2{
     text-align: center;
 }
+
+
+.overlay:hover .overlayEffects {
+    opacity: 0.7;
+}
+
+.overlay:hover .image {
+    opacity: 0.5;
+}
+
+.overlay:hover #overlaytext {
+    opacity: 0.7;
+}
+.overlay{
+    position: relative;
+}
+
+#overlaytext{
+    top:50%;
+    position: absolute;
+    text-align: center;
+    transform: -50% -50%;
+    right: 50%;
+}
