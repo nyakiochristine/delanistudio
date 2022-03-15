@@ -22,34 +22,32 @@
 /* end of mailchimp function*/
 
 //user/UI logic$("#design, #design2").click(()=>
-$(document).ready(()=>{
+$//
+  
+//})//
+//let imgs =['1','2','3','4']
 
-    // What we do section
+//imgs.forEach( img => {
+    //if($("#p" + img).is(":visible")){
+        //$('#p' + img).hide();
+    //}
 
-    $("#design, #designs").click(()=>
-    {
-        $('.par1').slideToggle();
-        //$('#design').slideToggle();
+    //$("#pic" + img).hover(()=> {
+        //$("#pic" + img).css({
+            //"position": "relative",
 
-    });
+        //});
 
-    
+        //$("#p" + img).show();
+        
+        //$("#p" + img).css({
+           //
+$(".images").hover(function () {
+    $(this).children(".img").fadeToggle(1000, "linear");
 
-    $("#develop").click(()=>
-    {
-        $('.par2').slideToggle();
-        //$('#development').slideToggle();
+});
 
-    });
 
-    $("#product").click(()=>
-    {
-        $('.par3').slideToggle();
-        //$('#products').slideToggle();
 
-    });
-
-       
 
   
-})
