@@ -72,6 +72,10 @@ h2{
     top:50%;
     position: absolute;
     text-align: center;
-    transform: -50% -50%;
-    right: 50%;
+    transform:translate(-50% -50%);
+    /*left: 50%;*/
+    transform: .5s ease;
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: brown;
 }
