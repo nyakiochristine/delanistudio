@@ -32,7 +32,7 @@ $(".visible").click(function(){
     $(".visible").hide()
     $(".hidden").toggle()
     $(".hidden").show()
-    $()
+    
 });
 
 $(".visible2").click(function(){
