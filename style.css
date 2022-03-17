@@ -73,7 +73,6 @@ h2{
     position: absolute;
     text-align: center;
     transform:translate(-50% -50%);
-    /*left: 50%;*/
     transform: .5s ease;
     display: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

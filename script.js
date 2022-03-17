@@ -33,6 +33,7 @@ $(".visible").click(function(){
     $(".hidden").toggle()
     $(".hidden").show()
     $()
+    
 });
 
 $(".visible2").click(function(){
