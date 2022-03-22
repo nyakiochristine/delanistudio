@@ -82,3 +82,7 @@ h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: brown;
 }
+
+.hidden, .hidden2, .hidden3{
+    display: none;
+}
