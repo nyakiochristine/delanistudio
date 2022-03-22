@@ -50,9 +50,14 @@ $(".visible3").click(function(){
     $()
 });
 //......................business logic.................//
+function myAlert(){
+    $(".form2").hide();
+};
+
+
 $("form").submit(() => {
     if($('#mce-FNAME').val() === "" || $("#mce-EMAIL").val() === "" || $('#mce-MMERGE6').val() === ''){
-        $(".form-pop").show();
+        $(".form2").show();
         $(".popping").text("Don't leave empty fields")
         $(".form2").css({
             "background-color" : "teal",
@@ -76,6 +81,10 @@ $("form").submit(() => {
 
 
 
+
+
+
+  
 
 
 
