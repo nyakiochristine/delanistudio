@@ -35,6 +35,10 @@ $(".visible").click(function(){
     $()
     
 });
+$(".hidden").click(function(){
+    $(".hidden").hide()
+    $(".visible").toggle()
+})
 
 $(".visible2").click(function(){
     $(".visible2").hide()
@@ -43,12 +47,24 @@ $(".visible2").click(function(){
     $()
 });
 
+$(".hidden2").click(function(){
+    $(".hidden2").hide()
+    $(".visible2").toggle()
+});
+
+
 $(".visible3").click(function(){
     $(".visible3").hide()
     $(".hidden3").toggle()
     $(".hidden3").show()
     $()
 });
+
+$(".hidden3").click(function(){
+    $(".hidden3").hide()
+    $(".visible3").toggle()
+})
+
 //......................business logic.................//
 function myAlert(){
     $(".form2").hide();
