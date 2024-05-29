@@ -23,7 +23,7 @@
 ### Requirements
 
 + clone repository
-{<https://github.com/nyakiochristine/birthday-check>}
+{<https://github.com/nyakiochristine/delanistudio>}
 *either a computer,phone,tablet or an Ipad
 *An access to the internet
 
